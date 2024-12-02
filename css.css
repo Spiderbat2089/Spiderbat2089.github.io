@@ -1,0 +1,182 @@
+/*
+    #F2E3BC
+    #08B2E3
+    #28587B
+    #C84630
+    #D7BCE8
+*/
+
+body {
+    background-color: #F2E3BC;
+    color: #28587B;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #08B2E3;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+
+
+nav {
+    background-color: #28587B;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #08B2E3;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+
+
+form {
+    background-color: #D7BCE8;
+    padding: 15px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 1.1em;
+}
+
+form input[type="text"] {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #28587B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #08B2E3;
+}
+
+
+
+h2 {
+    color: #08B2E3;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+h3 {
+    color: #28587B;
+}
+
+
+
+p {
+    color: #C84630;
+    line-height: 1.6;
+}
+
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    margin:auto;
+}
+
+th, td {
+    border: 1px solid #28587B;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #08B2E3;
+    color: white;
+}
+
+a {
+    color: #C84630;
+    text-decoration: underline;
+}
+
+
+a:hover {
+    color: #08B2E3;
+}
+
+
+ol {
+    display: grid;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+img {
+    
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.photoGroup {
+    display: flex; 
+    width: 900px;
+    gap: 400px; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-left: 25%;
+}
+
+.photoItem img{
+    margin: auto;
+    display:block;
+
+}
+
+
+.photoItem p{
+    text-align: center;
+
+}
